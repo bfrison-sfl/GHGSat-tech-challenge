@@ -1,0 +1,1 @@
+https://render.openstreetmap.org/cgi-bin/export?bbox=-73.57490301132204,45.52400492142079,-73.56614828109743,45.527721071894035&scale=6061&format=png
