@@ -11,5 +11,6 @@ def conversion(latitude, longitude):
     return (west, south, east, north)
 
 def generate_png_request(west, south, east, north):
-    addr = 'https://render.openstreetmap.org/cgi-bin/export?bbox={:f},{:f},{:f},{:f}&scale=99220&format=png'.format(west, south, east, north)
+    scale = 99220
+    addr = 'https://render.openstreetmap.org/cgi-bin/export?bbox={:f},{:f},{:f},{:f}&scale={:d}&format=png'.format(west, south, east, north, scale)
     return addr
