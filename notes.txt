@@ -1,8 +1,0 @@
-Google Maps API or OpenStreetMap
-Overlay PNGs, alph channel
-Front End? HTML?
-Scale image to browser width
-Rest API
-Write Documentation (use Python?)
-Sphinx Documentation
-Dockerfile
